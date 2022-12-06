@@ -14,5 +14,22 @@
  *= require_self
  */
 
- @import "bootstrap-sprockets";
- @import "bootstrap";
+// ...default comments
+
+// Bootstrap
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// Variables
+// @import "/variables";
+
+// Partials - main css files
+@import "partials/*";
+@import "partials/layout/*";
+
+// Default styles
+@import "/default";
+
+
+// Media queries for a responsive design
+@import "responsive/*";
